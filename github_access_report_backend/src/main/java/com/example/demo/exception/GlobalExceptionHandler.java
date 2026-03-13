@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Global exception handler that converts exceptions into structured JSON error responses.
  */
-@RestControllerAdvice
+@RestControllerAdvice(basePackages = "com.example.githubaccessreportbackend")
 public class GlobalExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
