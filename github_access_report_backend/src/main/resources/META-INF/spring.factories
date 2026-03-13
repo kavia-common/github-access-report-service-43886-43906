@@ -1,0 +1,4 @@
+# Register the DotenvEnvironmentPostProcessor to load .env file variables
+# into the Spring Environment early during startup.
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.example.githubaccessreportbackend.config.DotenvEnvironmentPostProcessor
