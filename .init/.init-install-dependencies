@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew dependencies",
+    "working_directory": "/home/kavia/workspace/code-generation/github-access-report-service-43886-43906/github_access_report_backend"
+}
